@@ -1226,7 +1226,7 @@ a.logo-text.seax {
   float: left;
   background-position: 0 0;
   line-height: 1;
-  background: url("/public/images/seax.png") no-repeat;
+  background: url("../images/seax.png") no-repeat;
   background-size: 36px 30px;
   border-bottom: 2px #682558 solid;
   margin-top: 4px;

@@ -4,7 +4,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="essex.gov.uk - The place to find services and information provided by Essex County Council and its partners.">
-    <link rel="icon" type="image/png" href="images/ui-images/sg/favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/favicon/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
@@ -19,17 +19,18 @@
     <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="images/favicon/favicon-128.png" sizes="128x128">
     <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="images/ui-images/sg/mstile-144x144.png">
-    <meta name="msapplication-square70x70logo" content="images/ui-images/sg/mstile-70x70.png">
-    <meta name="msapplication-square150x150logo" content="images/ui-images/sg/mstile-150x150.png">
-    <meta name="msapplication-wide310x150logo" content="images/ui-images/sg/mstile-310x150.png">
-    <meta name="msapplication-square310x310logo" content="images/ui-images/sg/mstile-310x310.png">
+    <meta name="msapplication-TileImage" content="images/mstile-144x144.png">
+    <meta name="msapplication-square70x70logo" content="images/mstile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="images/mstile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="images/mstile-310x150.png">
+    <meta name="msapplication-square310x310logo" content="images/mstile-310x310.png">
     <title>Welcome to Essex County Council</title>
     <meta property="og:title" content="Welcome to Essex County Council">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheets/essex.css">
     <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-    <script src="/javascript/essexcc/cookieconsent.js"></script>
+    <script src="javascript/cookieconsent.js"></script>
+    <script src="javascript/close.js"></script>
     <script>
       window.addEventListener("load", function(){
         window.cookieconsent.initialise({
@@ -55,7 +56,6 @@
       })(window, document, 'script', 'dataLayer', 'GTM-MR469XX');
     </script>
     <!-- End Google Tag Manager -->
-    <script src="/javascript/essexcc/cookieconsent.js"></script>
     <!-- Hotjar Tracking Code for https://www.essex.gov.uk/Pages/Default.aspx -->
     <script>
     (function (h, o, t, j, a, r) {
@@ -91,6 +91,7 @@
         </div>
       </div>
     </header>
+<!-- changes here -->
     <main id="content">
       <div class="container">
         <div class="alert error" id="tab-one">
@@ -139,12 +140,6 @@
         </div>
       </div>
     </main>
-    <script type="text/javascript">
-      require(['alerts'],
-      function (alerts) {
-          alerts.Init();
-      });
-    </script>
     <footer id="main-footer" class="footer-container">
       <div class="footer-top">
         <div class="footer">
@@ -171,12 +166,5 @@
         </div>
       </div>
     </footer>
-    <script src="javascript/close.js"></script>
-    <script src="javascript/cookieconsent.js"></script>
-    <script>
-    require(['validate', 'clipboard', 'jquery-ui', 'jquery.cookie'],
-      function (validate, clipboard, jqueryui, jquerycookie) {
-        })
-    </script>
   </body>
 </html>
